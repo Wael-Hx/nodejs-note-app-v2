@@ -17,7 +17,7 @@ switch (command) {
       console.log("some of the commands are wrong type: 'node app.js help ' ");
     } else
      {if (typeof note.title === "boolean" || !note.title ) {
-      console.log('note cannot be empty , type "node app.js help"');
+      console.log('note title cannot be empty , type "node app.js help"');
     } else {
         note.body ===true ? note.body='': note.body;
       list = [...list, note];
